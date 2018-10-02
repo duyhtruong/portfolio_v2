@@ -19,7 +19,7 @@
   list-style: none;
 }
 .about {
-  height: 100vh;
+  height: 90vh;
   background-color: #FCFCFC;
   display: flex;
   flex-direction: column;
@@ -47,11 +47,12 @@
 }
 .projects {
   height: 120vh;
-  background-color: #FCFCFC;
+  background-color: #FFF;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-bottom: 7vh;
 }
 .projects img {
   width: 350px;
@@ -64,10 +65,11 @@
 .projects p {
   font-size: 2em;
   font-family: 'Fira Sans', sans-serif;
-  padding-bottom: 1em;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 .contact {
-  height: 100vh;
+  height: 50vh;
   background-color: #FCFCFC;
   display: flex;
   flex-direction: column;
@@ -75,19 +77,22 @@
 .contact .contactHeader {
   font-size: 2em;
   font-family: 'Fira Sans', sans-serif;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
   text-align: center;
 }
 .contact .contactSocials {
-  flex-direction: flex;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 7vh;
 }
 .contact .contactSocials a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5em;
-  font-family: 'Open Sans', sans-serif;
-  padding-left: 2em;
-  line-height: 1.5em;
+  color: #5D5E60;
+}
+.contact p {
+  font-family: 'Open Sans', san-serif;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 3vh;
 }
