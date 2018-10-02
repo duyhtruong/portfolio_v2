@@ -5,11 +5,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
-  padding: 1em 1em 1em 1em;
+  font-size: 1.2em;
+  padding: 1em 1.2em 1em 1.2em;
   background-color: #FCFCFC;
+}
+.header img {
+  width: 70px;
+}
+.header .headerNav ul {
+  text-decoration: none;
+  list-style: none;
 }
 .about {
   height: 100vh;
@@ -17,24 +24,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  text-align: left;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
   padding-top: 3vh;
 }
-.aboutPicture {
-  background-color: #239CFF;
-  width: 15em;
-  height: 15em;
-  border-radius: 10em;
-  margin-bottom: 3vh;
+/*.aboutPicture{
+	background-color: @mainColor;
+	width: 15em;
+	height: 15em;
+	border-radius: 10em;
+	margin-bottom: 3vh;
 }
+*/
 .aboutParagraph {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.5em;
   font-family: 'Open Sans', san-serif;
 }
+.aboutParagraph .aboutHighlight {
+  color: #239CFF;
+}
 .projects {
-  height: 110vh;
+  height: 120vh;
   background-color: #FCFCFC;
   display: flex;
   flex-direction: column;
@@ -49,7 +61,33 @@
 .projects div {
   padding-bottom: 1vh;
 }
+.projects p {
+  font-size: 2em;
+  font-family: 'Fira Sans', sans-serif;
+  padding-bottom: 1em;
+}
 .contact {
   height: 100vh;
   background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contactHeader {
+  font-size: 2em;
+  font-family: 'Fira Sans', sans-serif;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: center;
+}
+.contact .contactSocials {
+  flex-direction: flex;
+  flex-direction: column;
+}
+.contact .contactSocials a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 2em;
+  line-height: 1.5em;
 }
