@@ -132,3 +132,19 @@
   text-align: center;
   padding-top: 3vh;
 }
+.projectAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vh 5vw 5vh 5vw;
+  text-align: center;
+}
+.projectAbout img {
+  max-width: 90vw;
+}
+.projectAbout p {
+  font-family: 'Open Sans', sans-serif;
+}
+.projectAbout h1 {
+  font-family: 'Fira Sans', sans-serif;
+}
