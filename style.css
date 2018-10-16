@@ -18,6 +18,16 @@
   text-decoration: none;
   list-style: none;
 }
+.header .headerNav a {
+  text-decoration: none;
+  color: black;
+}
+.header .headerNav a:visited {
+  color: black;
+}
+.header .headerNav a:hover {
+  color: #239CFF;
+}
 @media (min-width:1025px) {
   .header {
     padding-left: 10vw;
