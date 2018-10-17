@@ -201,16 +201,27 @@
 }
 .projectAbout .projectAboutTagsContainer {
   display: flex;
-  align-content: flex-start;
+  justify-content: center;
 }
 .projectAbout .projectAboutTags {
   background-color: #239CFF;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 0.75em 0.75em 0.75em 0.75em;
   margin-right: 0.5vw;
   color: #FCFCFC;
-  border-radius: 1em;
+  border-radius: 0.5em;
   font-family: 'Open Sans', sans-serif;
+}
+.projectAbout .projectAboutLinks {
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', san-serif;
+}
+.projectAbout .projectAboutLinks a {
+  text-decoration: none;
+}
+.projectAbout .projectAboutLinks a:visited {
+  color: black;
+}
+.projectAbout .projectAboutLinks a:hover {
+  color: #239CFF;
 }
