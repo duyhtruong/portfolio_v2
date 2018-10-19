@@ -184,7 +184,7 @@
 .projectAbout img {
   max-width: 90vw;
 }
-.projectAbout p {
+.projectAbout .projectAboutParagraph {
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 3vh;
   text-align: left;
@@ -192,6 +192,7 @@
 .projectAbout h1 {
   font-family: 'Fira Sans', sans-serif;
   padding-top: 3vh;
+  text-align: center;
 }
 @media (min-width:1025px) {
   .projectAbout {
@@ -215,9 +216,11 @@
   justify-content: center;
   text-align: center;
   font-family: 'Open Sans', san-serif;
+  padding-bottom: 3vh;
 }
 .projectAbout .projectAboutLinks a {
   text-decoration: none;
+  color: black;
 }
 .projectAbout .projectAboutLinks a:visited {
   color: black;
