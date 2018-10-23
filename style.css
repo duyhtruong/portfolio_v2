@@ -179,10 +179,8 @@
   justify-content: center;
   padding: 5vh 5vw 5vh 5vw;
   text-align: center;
-  height: 100vh;
-}
-.projectAbout img {
-  max-width: 90vw;
+  height: auto;
+  overflow: auto;
 }
 .projectAbout .projectAboutParagraph {
   font-family: 'Open Sans', sans-serif;
@@ -193,6 +191,13 @@
   font-family: 'Fira Sans', sans-serif;
   padding-top: 3vh;
   text-align: center;
+}
+.projectAbout img {
+  max-width: 90vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: block;
+  margin: auto;
 }
 @media (min-width:1025px) {
   .projectAbout {

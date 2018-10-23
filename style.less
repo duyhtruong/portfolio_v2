@@ -206,17 +206,15 @@
 	justify-content: center;
 	padding: 5vh 5vw 5vh 5vw;
 	text-align: center;
-	height: 100vh;
+	height: auto;
+	overflow: auto;
 
-	img{
-		max-width: 90vw;
-		
-	}
+
 
 	.projectAboutParagraph{
 		font-family: 'Open Sans', sans-serif;
   		padding-bottom: 3vh;
-    	text-align:left;	
+    	text-align: left;
 	}
 
 	h1{
@@ -224,6 +222,16 @@
 		padding-top: 3vh;
 		text-align: center;
 
+	}
+
+	img{
+		max-width: 90vw;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+		display: block;
+		margin: auto;
+
+		
 	}
 	@media @largeScreen{
 		padding-left: 10vw;
