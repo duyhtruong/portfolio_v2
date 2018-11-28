@@ -248,3 +248,13 @@
 .projectAbout .projectAboutLinks a:hover {
   color: #239CFF;
 }
+.test2 {
+  background-color: gray;
+}
+.test3 {
+  background-color: red;
+}
+.projectimagesize {
+  width: auto;
+  height: auto;
+}
