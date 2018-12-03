@@ -8,6 +8,7 @@
 	<link rel='stylesheet' href='style.css'>
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans:300" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 
@@ -26,65 +27,162 @@
 		</div>
 	</div>
 
-	<div class='projectAbout'>
-		<div class='projectAboutPicture'>
-			<img src='./projectlogos/restaurant.png'/>
+
+
+
+
+
+
+<div class='container-fluid'>
+
+		<div class='text-center pt-5'>
+			<img src='./projectlogos/restaurant.png' class='img-fluid'>
 		</div>
-		<div class='projectAboutParagraph'>
-			<h1>Restaurant Roulette</h1>
-			<div class='projectAboutLinks'>
-				
-				<a href='https://duyhtruong.github.io/restaurant-roulette' target='_blank'>Live Demo</a>
-				<a href='https://github.com/duyhtruong/restaurant-roulette' target='_blank'>Repository</a>
-				
+		
+		<h1 class='text-center pt-3'>Restaurant Roulette</h1>
+		
+
+
+		<div class='row justify-content-center pb-3'>
+			<a href='https://www.bit.ly/2zkS2Kg' class='badge badge-primary mr-1'>Live Demo</a>
+			<a href='https://www.bit.ly/2A4kDDj' class='badge badge-primary'>Repository</a>
+		</div>
+
+		<div class='row justify-content-center'>
+			<div class='col-sm-'>
+				<button type='button' class='btn btn-light'>HTML</button>
+				<button type='button' class='btn btn-light'>CSS</button>
+				<button type='button' class='btn btn-light'>JavaScript</button>
 			</div>
-			<p>Restaurant Roulette is a web app created for indecisive eaters.</p>
-			<img src='./restaurantPictures/restaurantChoices.png'>
-			<p>
-			 The user chooses price-point, distance, and number of results, and Restaurant roulette returns a list of random restaurants nearby based on the user's criteria.  </p> 
-			 <img src='./restaurantPictures/restaurantResult.png'>
-			<p>Geolocation API is used to get the user's current location. Google Maps API and Google Places Library are used to search for nearby restaurants.</p>
-			<p>Note* Location services must be on</p> 
 		</div>
-	<div class='projectAboutTagsContainer'>
-		<div class='projectAboutTags'>
-			<p>JavaScript</p>
+<hr>
+		
+		<div class='row justify-content-center pt-5 align-items-center'>
+			<div class='col-sm-3'>
+				<img src='./restaurantPictures/restaurant2.png' class='img-fluid'>
+			</div>
+			<div class='col-sm-3'>
+				<p>
+					Everyone has been a part of a conversation like this one at some point in their life. For me, this conversation happens almost daily, followed by what feels like an eternity scrolling on Yelp.
+				</p>
+
+				<p>
+					Today, people have the luxury of choice. Whether it be the type of car they choose to drive, or what brand canned-corn they want to buy for Thanksgiving dinner, the options are endless.  
+				</p>
+
+				<p>
+					The result is a 'first-world-problem' of being paralyzed by choice, or not being able to easily make a decision. With around 5,000 restaurants listed on Yelp in San Francisco, choosing a place to eat is no easy feat.
+				</p>
+			</div>
 		</div>
-		<div class='projectAboutTags'>
-			<p>CSS</p>
+
+		<div class='row justify-content-center'>
+			<div class='col-sm-8 py-5'>
+				<p class='h1'>
+					Restaurant Roulette was created in the hopes of removing one less decision out of a person's day.
+				</p>
+			</div>
 		</div>
-		<div class='projectAboutTags'>
-			<p>HTML</p>
+
+
+		<div class='text-center'>
+			<img src='./restaurantPictures/restaurant3.png' class='img-fluid'>
 		</div>
-	</div>
-	</div>
+
+		<div class='row justify-content-center pt-3 pb-5'>
+			<div class='col-sm-6'>
+				<p>
+					The web app takes in user criteria such as price point, distance, and number of results, and uses these parameters to return a list of random nearby restaurants.
+				</p>
+
+			</div>
+		</div>	
+
+		<div class='text-center'>
+			<img src='./restaurantPictures/restaurant4.png' class='img-fluid'>
+		</div>
+
+		<div class='row justify-content-center pt-3'>
+			<div class='col-sm-6'>
+	
+				<p>
+					The user's location is retrieved using the browser's built-in Geolocations API and combined with the user's choices in order to create an endpoint for Google's Map API and Places Library. JavaScript is used to pass the endpoint to Google Maps API and the Places Library, and is also used to parse through JSON data, and return a randomized array of data.</p>
+
+			</div>
+		</div>	
+
+			<hr>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	<div class='projects' id='projectsLink'>
 		<p>Other Projects</p>
+		
 		<div class='projectsContainer'>
-		<a href='grubburger.html'>
-		<div class= 'projectsGrub' data-content=
-		'Mock website designed for a restaurant'>
-			<img src='./projectlogos/grublogo.png' />
-		</div>
-		</a>
+			<a href='photo.html'>
+				<div data-content=
+				'Photo portfolio is a web page created to showcase my photography. Photos are organized in a responsive grid and features a filter'>
+					<img src='./projectlogos/squarephoto.jpg' />
+				</div>
+			</a>
 
-		<a href='golden.html'>
-		<div class='projectsGolden' data-content=
-		'Displays local time for golden hour based on user inputted location'>
-			<img src='./projectlogos/goldenlogo.png' />
-		</div>
-		</a>
+			<a href='golden.html'>
+				<div data-content=
+				'Golden Hour is a photographers tool that returns the time the sun rises and sets over the horizon at a user specified location'>
+					<img src='./projectlogos/squaregolden.jpg' />
+				</div>
+			</a>
 
-		<a href='film.html'>
-		<div class='projectsFilm' data-content=
-		'Movie database web app'>
-			<img src='./projectlogos/filmlogo.png' />
-		</div>
-		</a>
+			<a href='film.html'>
+				<div data-content=
+				'FilmDB is a web app created using React. It is a movie database where users can find and learn more about their favorite movies.'>
+					<img src='./projectlogos/squarefilm.jpg' />
+				</div>
+			</a>
 	</div>
 	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	<div class='contact' id='contactsLink'>
