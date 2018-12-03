@@ -270,3 +270,10 @@
   max-width: 90vw;
   height: auto;
 }
+.arrowCSS {
+  position: absolute;
+  bottom: 0;
+}
+.aboutParagraph {
+  position: relative;
+}
